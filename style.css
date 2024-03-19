@@ -1,0 +1,100 @@
+body {
+    font-size: 15pt;
+    overflow: hidden;
+}
+*{
+   margin: 0;
+   padding: 0;
+}
+.container{
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+
+   
+}
+.header{
+   width: 100vw;
+   height: 15vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.header img{
+   width: 90vw;
+}
+.select{
+   width: 100vw;
+   height: 6vh;
+   
+   margin-top: 3.5vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.select button{
+  
+   font-size: 20px;
+   padding: 3px 10px;
+   background: red;
+   border: 0;
+   outline: 0;
+   border-radius: 5px;
+   color:white;
+   font-weight: 900;
+}
+.main{
+   width: 90vw;
+   height: 50vh;
+   background: red;
+   margin: 6vh auto;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.title{
+   font-size: 6vh;
+   margin: 15px 0;
+   color: white;
+   font-weight: 1000;
+   
+}
+.value{
+   width:70vw;
+   background :white;
+   font-size: 17px;
+   padding: 8px 8px;
+   border:0;
+   outline: 0;
+   margin: 15px;
+   border-radius: 6px;
+}
+.submit{
+   margin: 15px 0; 
+   font-size: 18px;
+   background: white;
+   color: black;
+   border: 0;
+   outline: 0;
+   padding: 5px 20px;
+   font-weight: 900;
+   border-radius: 5px;
+}
+.result{
+   width:70vw;
+   height: 10vh;
+   background: white;
+   margin: 15px 0;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   outline: 0;
+   border: 0;
+   text-align: center;
+   padding: 5px 5px;
+}
+button:active{
+   transform: scale(0.5);
+   transform: scale(1.2);
+}
